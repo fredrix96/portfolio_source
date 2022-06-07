@@ -39,10 +39,10 @@ Menus:
       weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "My Portfolio"
+  description: A place where I showcase my resume, projects and more
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/portfolio.png"
 
   theme:
     disableThemeToggle: false
@@ -89,9 +89,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    title: "Fredrik"
+    subtitle: "and this is my portfolio"
+    content: "Recent Master of Science graduate in Game and Software Engineering. A strong problem solver, a meticulous code writer and a great teamplayer. My interests lie in games, technology and science."
     image: /images/hero.svg
     button:
       enable: true
