@@ -1,4 +1,4 @@
-baseURL: "https://fredrix96.github.io/Portfolio/"
+baseURL: "https://fredrix96.github.io/"
 languageCode: "en-us"
 title: "Fredrik Lind Portfolio"
 theme: hugo-profile
