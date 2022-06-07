@@ -26,6 +26,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          external_repository: https://github.com/fredrix96/fredrix96.github.io.git
+          external_repository: fredrix96.github.io.git
           publish_branch: master
           publish_dir: ./public
