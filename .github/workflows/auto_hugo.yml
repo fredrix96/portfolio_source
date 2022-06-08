@@ -25,7 +25,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          GITHUB_TOKEN: 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
           external_repository: fredrix96.github.io.git
           publish_branch: master
           publish_dir: ./public
