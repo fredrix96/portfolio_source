@@ -96,13 +96,15 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "https://1drv.ms/b/s!Aij4k16vFCYO01jycx1i74zaNEbE?e=2FPNtb"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
+          url: https://github.com/fredrix96
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/fredrik-lind-50616b5b/
+        - icon: fab fa-soundcloud
+          url: https://soundcloud.com/fflind
       customIcons:
         - icon: /fav.png
           url: "https://example.com"
