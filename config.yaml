@@ -41,8 +41,8 @@ Menus:
 params:
   title: "My Portfolio"
   description: A place where I showcase my resume, projects and more
-  # staticPath: ""  # The path to serve the static files from
-  favicon: "/portfolio.png"
+  #staticPath: "static"  # The path to serve the static files from
+  favicon: "/resources/portfolio.png"
 
   theme:
     disableThemeToggle: false
@@ -96,7 +96,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://1drv.ms/b/s!Aij4k16vFCYO01jycx1i74zaNEbE?e=2FPNtb"
+      url: "https://www.canva.com/design/DAE3G6-3nL4/jilHindsDyvmISQGj1ZRhw/view?utm_content=DAE3G6-3nL4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
