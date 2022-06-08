@@ -25,7 +25,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: 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
-          external_repository: fredrix96.github.io
+          personal_token: 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
+          external_repository: https://github.com/fredrix96/fredrix96.github.io.git
           publish_branch: master
           publish_dir: ./public
