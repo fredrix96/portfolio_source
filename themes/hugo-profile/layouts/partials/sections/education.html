@@ -24,7 +24,7 @@
                                     <small>{{ .date }}</small>
                                 </div>
                                 <h5 class="card-title">{{ .title }}</h5>
-                                
+                                <img src="{{ .image }}" style="position:relative; float: right; clear: both; left:14px; bottom:0px;" alt="" width="100" height="100">
                                 {{ if .school.url }}
                                 <a href="{{ .school.url }}" target="_blank">
                                     <h6>
@@ -34,7 +34,6 @@
                                 {{ else }}
                                 {{ .school.name }}
                                 {{ end }}
-
                                 {{ if .GPA }}
                                 <div class="py-1">
                                     GPA:
@@ -46,11 +45,13 @@
                                 <div class="py-1 education-content">
                                     {{ .content | markdownify}}
                                 </div>
-
                                 {{ if .featuredLink.enable }}
                                 <div class="py-1">
                                     <a href="{{ .featuredLink.url }}" class="btn">
                                         {{ .featuredLink.name | default "Featured" }}
+                                    </a>
+                                    <a href="{{ .featuredLink2.url }}" class="btn">
+                                        {{ .featuredLink2.name | default "Featured" }}
                                     </a>
                                 </div>
                                 {{ end }}

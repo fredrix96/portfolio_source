@@ -14,11 +14,11 @@ markup:
 
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
+    #- identifier: blog
+    #  name: Blog
+    #  title: Blog posts
+    #  url: /blogs
+    #  weight: 1
 
     #Dropdown menu
     - identifier: dropdown
@@ -45,7 +45,7 @@ params:
   favicon: "/resources/portfolio.png"
 
   theme:
-    disableThemeToggle: false
+    disableThemeToggle: true
     # defaultTheme: "light" # dark
 
   # font:
@@ -55,7 +55,7 @@ params:
   #   textAlign: right # default: left
 
   # color preference
-  # color:
+  color:
   #   textColor:
   #   secondaryTextColor:
   #   backgroundColor:
@@ -63,11 +63,11 @@ params:
   #   primaryColor:
   #   secondaryColor:
 
-  #   darkmode:
+    darkmode:
   #     textColor:
   #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
+      backgroundColor: "#040204"
+  #     secondaryBackgroundColor: "white"
   #     primaryColor:
   #     secondaryColor:
 
@@ -77,7 +77,7 @@ params:
   #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
   #   brandName: "Profile" # Brand name for the brand | default is the title variable
 
-  #   menus:
+  #menus:
   #     disableAbout: true
   #     disableExperience: true
   #     disableEducation: true
@@ -164,45 +164,38 @@ params:
     enable: true
     # index: true
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Science in Game and Software Engineering"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "Blekinge Institute of Technology, Karlskrona"
+          url: "https://www.bth.se/eng/"
+        date: "2016 - 2021"
+        #GPA: "3.8 out of 5.0"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - The program contained courses such as: Multivariable Calculus, Linear Algebra, C & C++, Databases (MySQL + Python), Game Physics, OpenGL, DirectX 12, WebGL, SCRUM and Git. 
+            - The program also contained two 3D game projects, showcased in my projects, and a thesis showcased in my publications.
         featuredLink:
           enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
+          name: "Degree Certificate"
+          url: "https://drive.google.com/file/d/1JMSmJLNzs6JaIRVZTOrGsNGq8r6nPfq7/view?usp=sharing"
+        featuredLink2:
           enable: true
-          url: "https://example.com"
+          name: "Certificate of Registration"
+          url: "https://drive.google.com/file/d/16tDwLRnK9WIObN2ue--aB6pc2C5itZte/view?usp=sharing"
+        image: "/resources/bth.png"
+      - title: "Science of Engineering"
+        school:
+          name: "Hulebäcksgymnasiet (High School), Mölnlycke"
+          url: "https://hulebacksgymnasiet.harryda.se/"
+        date: "2012 - 2015"
+        #GPA: "3.9 out of 5.0"
+        content: |-
+          - This was a Master of Science preparatory program.
+          - The program contained courses such as: Math 1c, 2c, 3c, 4 & 5, Physics 1 & 2, Technology 1 & 2, Biology 1, Chemistry 1 & 2, CAD 1 & 2, Music production 1 & 2 and English 7 (advanced english).
+        image: "/resources/hule.png"
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     items:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
@@ -270,15 +263,14 @@ params:
   #Contact
   contact:
     enable: true
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
-    btnName: Mail me
+    content: You can reach me here!
+    email: f.flind@hotmail.com
+    btnName: f.flind@hotmail.com
 
   footer:
-    # recentPosts: false
+    recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/fredrix96
+      linkedin: https://www.linkedin.com/in/fredrik-lind-50616b5b/
+      soundcloud: https://soundcloud.com/fflind
+      gamejolt: https://gamejolt.com/@FredrikLind/games
