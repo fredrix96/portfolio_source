@@ -55,7 +55,7 @@ params:
   #   textAlign: right # default: left
 
   # color preference
-  color:
+  #color:
   #   textColor:
   #   secondaryTextColor:
   #   backgroundColor:
@@ -63,10 +63,10 @@ params:
   #   primaryColor:
   #   secondaryColor:
 
-    darkmode:
+  #  darkmode:
   #     textColor:
   #     secondaryTextColor:
-      backgroundColor: "#040204"
+  #    backgroundColor: "#040204"
   #     secondaryBackgroundColor: "white"
   #     primaryColor:
   #     secondaryColor:
