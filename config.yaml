@@ -271,9 +271,10 @@ params:
   publications:
     enable: true
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
+      - title: >
+          Maximizing performance gain of Variable Rate Shading tier 2 while maintaining image quality: Using post processing effects to mask image degradation
+        content: The aim of this thesis was to examine how close Variable Rate Shading tier 2 screen space shading can come to the performance gains of Variable Rate Shading tier 1 while trying to maintain an acceptable image quality with the help of commonly used post processing effects."
+        url: http://urn.kb.se/resolve?urn=urn:nbn:se:bth-21868
 
   #Contact
   contact:
