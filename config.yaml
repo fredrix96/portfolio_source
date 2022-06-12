@@ -92,7 +92,7 @@ params:
     title: "Fredrik"
     subtitle: "and this is my portfolio"
     content: "Recent Master of Science graduate in Game and Software Engineering. A strong problem solver, a meticulous code writer and a great teamplayer. My interests lie in games, technology and science."
-    image: /images/hero.svg
+    image: /resources/code.gif
     button:
       enable: true
       name: "Resume"
@@ -171,7 +171,7 @@ params:
         date: "2016 - 2021"
         #GPA: "3.8 out of 5.0"
         content: |-
-            - The program contained courses such as: Multivariable Calculus, Linear Algebra, C & C++, Databases (MySQL + Python), Game Physics, OpenGL, DirectX 12, WebGL, SCRUM and Git. 
+            - The program contained courses such as: Multivariable Calculus, Linear Algebra, C & C++, Databases (MySQL + Python), Game Physics, OpenGL, DirectX 12, WebGL, SCRUM and Git.
             - The program also contained two 3D game projects, showcased in my projects, and a thesis showcased in my publications.
         featuredLink:
           enable: true
@@ -266,7 +266,15 @@ params:
             url: https://youtu.be/rK4MIVfmG8w
           - icon: fab fa-youtube
             url: https://youtu.be/G0b1Zi4N9lg
-  
+
+  # Publications
+  publications:
+    enable: true
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+
   #Contact
   contact:
     enable: true
