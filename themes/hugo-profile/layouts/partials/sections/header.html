@@ -82,6 +82,13 @@
                     </li>
                     {{ end }}
 
+                    {{ if and (.Site.Params.publications.enable | default false) (not (.Site.Params.navbar.menus.disablePublications | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#publications"
+                            aria-label="publications">Publications</a>
+                    </li>
+                    {{ end }}
+
                     {{ if and (.Site.Params.contact.enable | default false) (not (.Site.Params.navbar.menus.disableContact | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#contact"
@@ -139,7 +146,7 @@
                         </svg>
                     </button>
                 </div>
-            
+
                 {{ end }}
             </div>
         </div>

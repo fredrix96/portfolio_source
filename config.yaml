@@ -23,18 +23,18 @@ Menus:
     #Dropdown menu
     - identifier: dropdown
       title: Example dropdown menu
-      name: Dropdown
+      name: Pages
       weight: 2
     - identifier: dropdown1
-      title: example dropdown 1
-      name: example 1
+      title: Profile page
+      name: Profile
       url: /#
       parent: dropdown
       weight: 1
     - identifier: dropdown2
-      title: example dropdown 2
-      name: example 2
-      url: /#
+      title: Blog posts
+      name: Blog
+      url: /blogs
       parent: dropdown
       weight: 2
 
@@ -72,10 +72,10 @@ params:
   #     secondaryColor:
 
   # If you want to customize the menu, you can change it here
-  # navbar:
-  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    brandLogo: "/resources/portfolio.png" # Logo for the brand | default is the favicon variable
+    brandName: "Profile" # Brand name for the brand | default is the title variable
 
   #menus:
   #     disableAbout: true
@@ -83,6 +83,7 @@ params:
   #     disableEducation: true
   #     disableProjects: true
   #     disableAchievements: true
+  #     disablePublications: true
   #     disableContact: true
 
   # Hero
@@ -200,16 +201,6 @@ params:
       - title: Google kickstart runner
         content: I solved all problems with optimal solution.
         url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
 
   # projects
   projects:
@@ -218,20 +209,13 @@ params:
       - title: Unity 2D Game
         content: Currently working on a 2D game in Unity. You place buildings and gather an army to fight the never ending flow of enemies. The game is purely created programmatically. The art and music are created by me.
         image: /resources/unity.png
-        #featured:
-          #name: Demo
-          #link: https://hugo-profile.netlify.app
         badges:
           - "Unity"
           - "C#"
           - "Game"
         links:
-          #- icon: fa fa-envelope
-            #url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/fredrix96/MyUnity2DGame
-          #- icon: fab fa-twitter
-            #url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: Hell Loop
         content: A game made by me and ten other students at Blekinge Institute of Technology. It is built from the ground up with our own engine in DirectX 12.
