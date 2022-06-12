@@ -215,51 +215,58 @@ params:
   projects:
     enable: true
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
+      - title: Unity 2D Game
+        content: Currently working on a 2D game in Unity. You place buildings and gather an army to fight the never ending flow of enemies. The game is purely created programmatically. The art and music are created by me.
+        image: /resources/unity.png
+        #featured:
+          #name: Demo
+          #link: https://hugo-profile.netlify.app
+        badges:
+          - "Unity"
+          - "C#"
+          - "Game"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          #- icon: fa fa-envelope
+            #url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/fredrix96/MyUnity2DGame
+          #- icon: fab fa-twitter
+            #url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Hell Loop
+        content: A game made by me and ten other students at Blekinge Institute of Technology. It is built from the ground up with our own engine in DirectX 12.
+        image: /resources/hellLoop.jpg
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        # badges:
-        #   - "Django"
-        #   - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        # badges:
-        #   - "Hugo"
-        #   - "Bootstrap"
-        #   - "Javascript"
+          name: Download
+          link: https://gamejolt.com/games/Hell_Loop/578483
+        badges:
+          - "DirectX 12"
+          - "C++"
+          - "Game"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/jocke1995/StortSpelProjekt
+          - icon: fab fa-youtube
+            url: https://youtu.be/EPoPFmjj784
 
+      - title: Daedalus' Maze
+        content: The first game I made together with four other students at Blekinge Institute of Technology. It is built from the ground up with our own engine in OpenGL. Fun fact, a south korean Youtuber found and played this game. It has therefore been seen by more than 100k people. The link to his channel is the second Youtube logo below.
+        image: /resources/daedalusMaze.jpg
+        featured:
+          name: Download
+          link: https://gamejolt.com/games/daedalusmaze/404262
+        badges:
+          - "OpenGL"
+          - "C++"
+          - "Game"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Whixx/Small-Game-Project
+          - icon: fab fa-youtube
+            url: https://youtu.be/rK4MIVfmG8w
+          - icon: fab fa-youtube
+            url: https://youtu.be/G0b1Zi4N9lg
+  
   #Contact
   contact:
     enable: true
