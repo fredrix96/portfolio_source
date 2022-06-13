@@ -191,7 +191,7 @@ params:
         #GPA: "3.9 out of 5.0"
         content: |-
           - This was a Master of Science preparatory program.
-          - The program contained courses such as: Math 1c, 2c, 3c, 4 & 5, Physics 1 & 2, Technology 1 & 2, Biology 1, Chemistry 1 & 2, CAD 1 & 2, Music production 1 & 2 and English 7 (advanced english).
+          - The program contained courses such as: Mathematics 4 & 5, Physics 2, Engineering 2, Biology 1, Chemistry 2, CAD 2, Music production 2 and English 7 (advanced english).
         image: "/resources/hule.png"
 
   # Achievements
