@@ -24,31 +24,31 @@
     </table>
 
     <!-- include javascript -->
-    <script type="text/javascript" src="{{ .Site.BaseURL }}/lib/webgl-utils.js"></script>
-    <script type="text/javascript" src="{{ .Site.BaseURL }}/js/metaballs.js"></script>
-    <script type="text/javascript" src="{{ .Site.BaseURL }}/lib/cuon-matrix.js"></script>
-    <script type="text/javascript" src="{{ .Site.BaseURL }}/lib/gl-matrix/dist/gl-matrix.js"></script>
-</div>
+    <script type="text/javascript" src="{{ .Site.BaseURL }}/metaballs/lib/webgl-utils.js"></script>
+    <script type="text/javascript" src="{{ .Site.BaseURL }}/metaballs/js/metaballs.js"></script>
+    <script type="text/javascript" src="{{ .Site.BaseURL }}/metaballs/lib/cuon-matrix.js"></script>
+    <script type="text/javascript" src="{{ .Site.BaseURL }}/metaballs/lib/gl-matrix/dist/gl-matrix.js"></script>
 
-<script>
-    /* Storing user's device details in a variable*/
-    let details = navigator.userAgent;
-
-    /* Creating a regular expression
-    containing some mobile devices keywords
-    to search it in details string*/
-    let regexp = /android|iphone|kindle|ipad/i;
-
-    /* Using test() method to search regexp in details
-    it returns boolean value*/
-    let isMobileDevice = regexp.test(details);
-
-    var element = document.getElementById('world');
-
-    if (isMobileDevice) {
-        for(let i = 0; i < elements.length; i++){
-            element.clientWidth = window.innerWidth;
-            element.clientHeight = window.innerHeight;
+    <script>
+        /* Storing user's device details in a variable*/
+        let details = navigator.userAgent;
+    
+        /* Creating a regular expression
+        containing some mobile devices keywords
+        to search it in details string*/
+        let regexp = /android|iphone|kindle|ipad/i;
+    
+        /* Using test() method to search regexp in details
+        it returns boolean value*/
+        let isMobileDevice = regexp.test(details);
+    
+        var element = document.getElementById("world");
+    
+        if (isMobileDevice) {
+            var ctx = document.getElementById("world");
+            var aspect = ctx.height / ctx.width;
+            ctx.width  = window.innerWidth / 2;
+            ctx.height = ctx.width * aspect;
         }
-    }
-</script>
+    </script>
+</div>
