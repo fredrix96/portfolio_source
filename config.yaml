@@ -22,21 +22,27 @@ Menus:
 
     #Dropdown menu
     - identifier: dropdown
-      title: Example dropdown menu
+      title: Show all pages
       name: Pages
       weight: 2
     - identifier: dropdown1
-      title: Profile page
-      name: Profile
+      title: Home Page
+      name: Home
       url: /#
       parent: dropdown
       weight: 1
     - identifier: dropdown2
-      title: Blog posts
-      name: Blog
-      url: /blogs
+      title: Metaballs Page
+      name: Metaballs
+      url: /metaballs
       parent: dropdown
       weight: 2
+    - identifier: dropdown3
+      title: Unity Physics Demo Page
+      name: Unity Physics Demo
+      url: /physicsgame
+      parent: dropdown
+      weight: 3
 
 params:
   title: "My Portfolio"
@@ -46,7 +52,7 @@ params:
 
   theme:
     disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    defaultTheme: "dark"
 
   # font:
   #   fontSize: 1.5rem # default: 1rem
@@ -75,7 +81,7 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     brandLogo: "/resources/portfolio.png" # Logo for the brand | default is the favicon variable
-    brandName: "Profile" # Brand name for the brand | default is the title variable
+    brandName: "Home" # Brand name for the brand | default is the title variable
 
   #menus:
   #     disableAbout: true
