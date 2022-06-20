@@ -1,4 +1,4 @@
-<div class="wrapper">
+
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1280 height=720></canvas>
       <div id="unity-loading-bar">
@@ -46,7 +46,6 @@
         dataUrl: buildUrl + "/WebGL_Build.data.unityweb",
         frameworkUrl: buildUrl + "/WebGL_Build.framework.js.unityweb",
         codeUrl: buildUrl + "/WebGL_Build.wasm.unityweb",
-        streamingAssetsUrl: "StreamingAssets",
       };
 
       // By default Unity keeps WebGL canvas render target size matched with
@@ -81,5 +80,4 @@
       };
       document.body.appendChild(script);
     </script>
-</div>
   
