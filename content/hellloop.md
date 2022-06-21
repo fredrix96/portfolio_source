@@ -7,7 +7,7 @@ draft: false
 
 ## Preview
 <div id="container">
-  <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/EPoPFmjj784?autoplay=1&mute=1" title="Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/EPoPFmjj784?autoplay=1&mute=1" title="Preview" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Introduction
@@ -44,7 +44,7 @@ These calls are made via the engine's event system and via function calls.
 
 <div align="center" >
   <img class="figure" src="../resources/quads.jpg" width="480" title="Figure 1">
-  <div style="width:480px">
+  <div class="figText" style="width:480px">
     Figur 1: A quad on the screen. It consists of two triangles which can be seen on the left side of the figure. The quads can have a color and a texture, seen on the right side.
   </div>
 </div>
@@ -53,7 +53,7 @@ These calls are made via the engine's event system and via function calls.
 
 <div align="center" >
   <img class="figure" src="../resources/text.jpg" width="480" title="Figure 2">
-  <div style="width:480px">
+  <div class="figText" style="width:480px">
     Figur 2: Texts consist of one quad per character. The quads can be seen in the upper part of the figure, while the text (result) can be seen in the lower part.
   </div>
 </div>
@@ -77,17 +77,17 @@ how much life the user has left, how much time has passed in certain rounds and 
   it returns boolean value*/
   let isMobileDevice = regexp.test(details);
 
-  var video = document.getElementById('video');
-  var figures = document.getElementsByClass('figure');
+  var figures = document.getElementsByClassName('figure');
 
   if (isMobileDevice) {
-      video.style.width = "300px";
-      video.style.height = "168px";
+      document.getElementById('video').width = "300";
+      document.getElementById('video').height = "168";
 
-      foreach (var fig in figures)
+      for (var i = 0; i < figures.length; i++)
       {
-        fig.style.width = "300px";
-        fig.style.height = "168px";
+        figures[i].style.width = "300px";
+        figures[i].style.height = "168px";
       }
+
   }
 </script>
