@@ -78,6 +78,7 @@ how much life the user has left, how much time has passed in certain rounds and 
   let isMobileDevice = regexp.test(details);
 
   var figures = document.getElementsByClassName('figure');
+  var figTexts = document.getElementsByClassName('figText');
 
   if (isMobileDevice) {
       document.getElementById('video').width = "300";
@@ -89,5 +90,9 @@ how much life the user has left, how much time has passed in certain rounds and 
         figures[i].style.height = "168px";
       }
 
+      for (var i = 0; i < figTexts.length; i++)
+      {
+        figTexts[i].style.width = "300px";
+      }
   }
 </script>
