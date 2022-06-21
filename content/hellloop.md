@@ -29,7 +29,7 @@ swapchain, created some textures for the GUI system, implemented the aim and cro
 different rooms in the game, edited the background music plus ambient sounds, and added the ability to
 change the brightness of the game via the game's settings.
 
-## The GUI system
+### The GUI system
 The GUI system was the biggest technique that I contributed with. 
 The GUI system processes 2D elements, such as quads (see Figure 1), and texts (see Figure 2). 
 These are then drawn directly on the screen via "normalized device coordinates" NDC and therefore does not use any world coordinates.
