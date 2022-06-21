@@ -6,7 +6,9 @@ draft: false
 ---
 
 ## Preview
-{{<hellloop>}}
+<div id="container">
+  <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/EPoPFmjj784?autoplay=1&mute=1" title="Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Introduction
 I made this game together with 10 other students for the course "Large Game Project" at Blekinge Institute of Technology.
@@ -41,7 +43,7 @@ These calls are made via the engine's event system and via function calls.
 <br />
 
 <div align="center" >
-  <img src="../resources/quads.jpg" width="480" title="Figure 1">
+  <img class="figure" src="../resources/quads.jpg" width="480" title="Figure 1">
   <div style="width:480px">
     Figur 1: A quad on the screen. It consists of two triangles which can be seen on the left side of the figure. The quads can have a color and a texture, seen on the right side.
   </div>
@@ -50,7 +52,7 @@ These calls are made via the engine's event system and via function calls.
 <br />
 
 <div align="center" >
-  <img src="../resources/text.jpg" width="480" title="Figure 2">
+  <img class="figure" src="../resources/text.jpg" width="480" title="Figure 2">
   <div style="width:480px">
     Figur 2: Texts consist of one quad per character. The quads can be seen in the upper part of the figure, while the text (result) can be seen in the lower part.
   </div>
@@ -61,3 +63,31 @@ These calls are made via the engine's event system and via function calls.
 The GUI system is visible throughout the whole game.
 The system is needed so that the user can navigate menus and get the information about what is going on in the game, such as how many enemies the user has defeated,
 how much life the user has left, how much time has passed in certain rounds and get information about what the various upgrades in the store do.
+
+<script>
+  /* Storing user's device details in a variable*/
+  let details = navigator.userAgent;
+
+  /* Creating a regular expression
+  containing some mobile devices keywords
+  to search it in details string*/
+  let regexp = /android|iphone|kindle|ipad/i;
+
+  /* Using test() method to search regexp in details
+  it returns boolean value*/
+  let isMobileDevice = regexp.test(details);
+
+  var video = document.getElementById('video');
+  var figures = document.getElementsByClass('figure');
+
+  if (isMobileDevice) {
+      video.style.width = "300px";
+      video.style.height = "168px";
+
+      foreach (var fig in figures)
+      {
+        fig.style.width = "300px";
+        fig.style.height = "168px";
+      }
+  }
+</script>
