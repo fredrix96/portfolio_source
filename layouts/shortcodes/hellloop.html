@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <body>
+    <div id="container">
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/EPoPFmjj784?autoplay=1&mute=1" title="Preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
+
+<script>
+  /* Storing user's device details in a variable*/
+  let details = navigator.userAgent;
+
+  /* Creating a regular expression
+  containing some mobile devices keywords
+  to search it in details string*/
+  let regexp = /android|iphone|kindle|ipad/i;
+
+  /* Using test() method to search regexp in details
+  it returns boolean value*/
+  let isMobileDevice = regexp.test(details);
+
+  var element = document.getElementById('video');
+
+  if (isMobileDevice) {
+      element.style.width = "300px";
+      element.style.height = "168px";
+  }
+</script>

@@ -43,6 +43,12 @@ Menus:
       url: /physicsgame
       parent: dropdown
       weight: 3
+    - identifier: dropdown4
+      title: Hell Loop Page
+      name: Hell Loop
+      url: /hellloop
+      parent: dropdown
+      weight: 4
 
 params:
   title: "My Portfolio"
@@ -103,7 +109,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://www.canva.com/design/DAE3G6-3nL4/jilHindsDyvmISQGj1ZRhw/view?utm_content=DAE3G6-3nL4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+      url: "/resources/documents/Resume.pdf"
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -183,11 +189,11 @@ params:
         featuredLink:
           enable: true
           name: "Degree Certificate"
-          url: "https://drive.google.com/file/d/1JMSmJLNzs6JaIRVZTOrGsNGq8r6nPfq7/view?usp=sharing"
+          url: "/resources/documents/Degree Certificate.pdf"
         featuredLink2:
           enable: true
           name: "Certificate of Registration"
-          url: "https://drive.google.com/file/d/16tDwLRnK9WIObN2ue--aB6pc2C5itZte/view?usp=sharing"
+          url: "/resources/documents/Certificate of Registration.pdf"
         image: "/resources/bth.png"
       - title: "Science of Engineering"
         school:
