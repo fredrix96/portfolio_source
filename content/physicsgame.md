@@ -5,6 +5,8 @@ type: post
 draft: false
 ---
 
+<div style="background-color: rgba(10, 10, 10, 0.8); width:100%; height:100%; padding-top:10px;">
+
 ## Introduction
 This small game project was done together with another student for the course "Game Physics" during my time at Blekinge Institute of Technology.
 It is built with C# in Unity 2D.
@@ -30,3 +32,5 @@ You shoot with Space button.
 
 ## Project
 {{<physicsgame>}}
+
+</div>

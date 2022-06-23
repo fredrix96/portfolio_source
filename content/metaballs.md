@@ -5,6 +5,8 @@ type: post
 draft: false
 ---
 
+<div style="background-color: rgba(10, 10, 10, 0.8); width:100%; height:100%; padding-top:10px;">
+
 ## Introduction
 I made this project for the course "Game Techniques for the Web" during my time at Blekinge Institute of Technology.
 It is built with javascript, css and html. 
@@ -29,3 +31,5 @@ The colors are randomized each time you refresh this page.
 
 ## Project
 {{<metaballs>}}
+
+</div>

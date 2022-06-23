@@ -232,6 +232,7 @@ params:
       - title: Hell Loop
         content: A game made by me and ten other students at Blekinge Institute of Technology. It is built from the ground up with our own engine in DirectX 12.
         image: /resources/hellLoop.jpg
+        page: /hellloop
         featured:
           name: Download
           link: https://gamejolt.com/games/Hell_Loop/578483

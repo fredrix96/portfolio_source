@@ -1,0 +1,1 @@
+hugo server -D --bind 192.168.1.160 --baseURL http://192.168.1.160
