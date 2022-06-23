@@ -1,6 +1,6 @@
 baseURL: "http://fredriklind.me"
 languageCode: "en-us"
-title: "Fredrik Lind Portfolio"
+title: "Fredrik Lind"
 theme: hugo-profile
 
 Paginate: 3
