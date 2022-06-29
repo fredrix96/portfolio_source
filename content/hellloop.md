@@ -6,7 +6,6 @@ draft: false
 ---
 <div style="background-color: rgba(10, 10, 10, 0.8); width:100%; height:100%; padding-top:10px;">
 
-## Preview
 <div id="container">
   <iframe id="video" width="1280" height="720" src="https://www.youtube.com/embed/EPoPFmjj784?autoplay=1&mute=1" title="Preview" frameborder="0" allowfullscreen></iframe>
 </div>

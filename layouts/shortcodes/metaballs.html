@@ -8,6 +8,7 @@
     <p>
         <input id="play"  type="button" value="Play" />
         <input id="pause" type="button" value="Pause" />
+        <input id="reset" type="button" value="Randomize Colors" />
         Speed: <input id="speed" type="range" step="1" min="1" max="100" value="1"/>
     </p>
 
@@ -24,11 +25,12 @@
     </table>
 
     <!-- include javascript -->
-    <script type="text/javascript" src="{{ .Site.BaseURL }}/metaballs/lib/webgl-utils.js"></script>
     <script type="text/javascript" src="{{ .Site.BaseURL }}/metaballs/js/metaballs.js"></script>
+
+    <script type="text/javascript" src="{{ .Site.BaseURL }}/metaballs/lib/webgl-utils.js"></script>
+    <script type="text/javascript" src="{{ .Site.BaseURL }}/metaballs/lib/my-utils.js"></script>
     <script type="text/javascript" src="{{ .Site.BaseURL }}/metaballs/lib/cuon-matrix.js"></script>
     <script type="text/javascript" src="{{ .Site.BaseURL }}/metaballs/lib/gl-matrix/dist/gl-matrix.js"></script>
-
 </div>
 
 <script>
