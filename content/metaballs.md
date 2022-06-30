@@ -1,5 +1,6 @@
 ---
 title: "Metaballs"
+author: "Fredrik Lind"
 date: 2020-05-25
 type: post
 draft: false

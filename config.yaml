@@ -32,21 +32,21 @@ Menus:
       parent: dropdown
       weight: 1
     - identifier: dropdown2
-      title: Metaballs Page
-      name: Metaballs
-      url: /metaballs
-      parent: dropdown
-      weight: 2
-    - identifier: dropdown3
-      title: Unity Physics Demo Page
-      name: Unity Physics Demo
-      url: /physicsgame
-      parent: dropdown
-      weight: 3
-    - identifier: dropdown4
       title: Hell Loop Page
       name: Hell Loop
       url: /hellloop
+      parent: dropdown
+      weight: 2
+    - identifier: dropdown3
+      title: Daedalus' Maze Page
+      name: Daedalus' Maze
+      url: /daedalusmaze
+      parent: dropdown
+      weight: 3
+    - identifier: dropdown4
+      title: Smaller Projects Page
+      name: Smaller Projects
+      url: /smallprojects
       parent: dropdown
       weight: 4
 
@@ -221,6 +221,7 @@ params:
       - title: Unity 2D Game
         content: Currently working on a 2D game in Unity. You place buildings and gather an army to fight the never ending flow of enemies. The game is purely created programmatically. The art and music are created by me.
         image: /resources/unity.png
+        page: /myunitygame
         badges:
           - "Unity"
           - "C#"
@@ -247,8 +248,9 @@ params:
             url: https://youtu.be/EPoPFmjj784
 
       - title: Daedalus' Maze
-        content: The first game I made together with four other students at Blekinge Institute of Technology. It is built from the ground up with our own engine in OpenGL. Fun fact, a south korean Youtuber found and played this game. It has therefore been seen by more than 100k people. The link to his channel is the second Youtube logo below.
+        content: The first game I made together with four other students at Blekinge Institute of Technology. It is built from the ground up with our own engine in OpenGL.
         image: /resources/daedalusMaze.jpg
+        page: /daedalusmaze
         featured:
           name: Download
           link: https://gamejolt.com/games/daedalusmaze/404262
@@ -261,8 +263,6 @@ params:
             url: https://github.com/Whixx/Small-Game-Project
           - icon: fab fa-youtube
             url: https://youtu.be/rK4MIVfmG8w
-          - icon: fab fa-youtube
-            url: https://youtu.be/G0b1Zi4N9lg
 
   # Publications
   publications:

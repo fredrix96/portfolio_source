@@ -20,8 +20,10 @@
             <h1 class="text-center mb-4">{{ .Title }}</h1>
             <div class="text-center">
               {{ .Params.author }} 
-              <small>|</small>
-              {{ .Date.Format "Jan 2, 2006" }}
+              {{ if .Date }}
+                <small>|</small>
+                {{ .Date.Format "Jan 2, 2006" }}
+              {{ end }}
             </div>
           </div>
           {{ if .Params.image }}

@@ -1,5 +1,6 @@
 ---
 title: "Unity 2D: Game Physics - Projectiles, Explosions and Shockwaves"
+author: "Fredrik Lind"
 date: 2018-11-22
 type: post
 draft: false
@@ -23,12 +24,12 @@ The tank takes damage depending on the power of the shockwave, that is, how clos
 The power and direction of the wind is randomized each time you reset the game.
 
 ## Controls
-You can zoom in and out with your mouse's scroll-wheel.
-The tank drives with the A and D buttons.
-The W and S buttons change the tank's power and the Q and E buttons change the angle of the turret.
-The gravity and speed of time for the projectiles can be changed at the button of the screen. 
-A "SlowMo Speed" of 1.00 represents a normal time for the projectile, lower than that is slow motion and higher is a speed up.
-You shoot with Space button.
+* Mouse Scroll-Wheel    : Zoom in and out with the camera
+* A & D                 : Drives the tank
+* W & S                 : Change the tank's power output from 0% to 100% of 2.89 Mach
+* Q & E                 : Change the angle of the turret
+* Space                 : Shoot  
+The gravity and the speed  of time for the projectiles can be changed at the bottom of the screen. A "SlowMo Speed" of 1.00 represents a normal time for the projectile, lower than that is slow motion and higher is a speed up.
 
 ## Project
 {{<physicsgame>}}

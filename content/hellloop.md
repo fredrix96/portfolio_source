@@ -1,5 +1,6 @@
 ---
 title: "Large Game Project - Hell Loop"
+author: "Fredrik Lind"
 date: 2021-01-17
 type: post
 draft: false
@@ -244,6 +245,10 @@ ended up nicely.
     Figur 7: This square represents the coordinates of the screen. The coordinates start at the point (0,0) which is located at the top left corner of the screen and ends at the point (1,1) at the bottom right corner of the screen.
   </div>
 </div>
+
+<br />
+
+## <em>[Click here to download the game](https://gamejolt.com/games/Hell_Loop/578483)</em>
 
 </div>
 
