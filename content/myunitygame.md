@@ -17,7 +17,7 @@ I did this as a challenge so that I could learn C# better, but also so that I co
 
 <br />
 
-Note that the game is in progress, so this page will be updated continously.
+Note that the game is in progress, so this page will be updated continuously.
 
 ## About the game
 The game's objective is to keep your character alive, while building your own base and gathering an army to defeat the never ending horde of enemies.
@@ -54,7 +54,7 @@ The player will be able to buy new building through the shop seen to the left of
 <div align="center" >
   <img class="figure" src="../resources/gameImages/shopandfighting.jpg" width="1080" title="Figure 3">
   <div class="figText" style="width:1080px">
-    Figur 3: The shop can be seen to the right. The player can open it with the "E" button. The soldiers will automatically attack enemies when they are in range.
+    Figur 3: The shop can be seen to the left. The player can open it with the "E" button. The soldiers will automatically attack enemies when they are in range.
   </div>
 </div>
 
@@ -63,14 +63,14 @@ The player will be able to buy new building through the shop seen to the left of
 ## Code
 
 To save some performance, the soldiers' and enemies' movements are multithreaded (see Figure 4 - 6). 
-This is done by using Unity's "Job system" shown in Figure 6.
-The difficult part with multithreading in Unity is that Unity's game objects can not be multithreading due to "thread-safety".
-This means that the movement first has to be calculated seperately, and then being applied to the game object's position at the main thread.
+This is done by using Unity's "job system" shown in Figure 6.
+The difficult part with multithreading in Unity is that Unity's game objects can not be multithreaded due to "thread-safety".
+This means that the movement first has to be calculated separately, and then being applied to the game object's position at the main thread.
 
 <div align="center" >
   <img class="figure" src="../resources/gameImages/multithread1.jpg" width="1080" title="Figure 4">
   <div class="figText" style="width:1080px">
-    Figur 4: Here we look if the program is multithreaded. If it is, then we decide on which frame the characters should search for a new path to follow (in this case every 60th frame). This is done to maximize performance and is barely noticable in game.
+    Figur 4: Here we look if the program is multithreaded. If it is, then we decide on which frame the characters should search for a new path to follow (in this case every 60th frame). This is done to maximize performance and is barely noticable in-game.
   </div>
 </div>
 
@@ -95,11 +95,11 @@ This means that the movement first has to be calculated seperately, and then bei
 <br />
 
 The [BurstCompile] command seen at the top of figure 6 is yet an additonal way to optimize the code. 
-It is a seperate compiler which will run execute the code even faster by further optimizing the code.
+It is a separate compiler which will run execute the code even faster by further optimizing the code.
 However, I have not yet succeeded in implementing it because it is even more strict to use than the job system.
 The burst compiler can not work with classes or Unity objects unless they are singletons.
 So for me to implement it would mean that I have to rethink bigger parts of my code structure, and I am not sure if it is worth it.
-I would definitely have planned for it if I knew that it existed while I started this project.
+I would definitely have planned for it if I knew that it existed when I started this project.
 
 <br />
 
