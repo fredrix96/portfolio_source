@@ -151,6 +151,16 @@ params:
   experience:
     enable: true
     items:
+      - job: "Gameplay Programmer"
+        company: "Chief Rebel"
+        companyUrl: "https://jobs.chiefrebel.com/"
+        date: "Nov 2022 - Present"
+        info:
+          enable: true
+          content: Chief Rebel is a game company located in Stockholm
+        content: "I am currently working as a Gameplay Programmer at Chief Rebel. That means that I am programming in C++ and that I am using Blueprints in Unreal Engine 5."
+        image: "/resources/chiefrebel.png"
+
       - job: "Java Developer (Internship)"
         company: "Colmeo"
         companyUrl: "https://www.colmeo.se/"
