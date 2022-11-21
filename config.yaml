@@ -159,7 +159,7 @@ params:
           enable: true
           content: Chief Rebel is a game company located in Stockholm
         content: "I am currently working as a Gameplay Programmer at Chief Rebel. That means that I am programming in C++ and that I am using Blueprints in Unreal Engine 5."
-        image: "/resources/chiefrebel.png"
+        image: "/resources/chiefrebel.jpg"
 
       - job: "Java Developer (Internship)"
         company: "Colmeo"
